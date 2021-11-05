@@ -12,12 +12,15 @@ const intToOutcome = ["Bob wins!", "Alice wins!"];
 const { standardUnit } = reach;
 const defaults = { defaultFundAmt: "10", defaultWager: "3", standardUnit };
 reach.setProviderByName("TestNet");
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { view: "ConnectAccount", ...defaults };
   }
   async componentDidMount() {
+    const now = await reach.getNetworkTime();
+    reach.setQueryLowerBound(reach.sub(now, 2000));
     const acc = await reach.getDefaultAccount();
     const balAtomic = await reach.balanceOf(acc);
     const bal = reach.formatCurrency(balAtomic, 4);
