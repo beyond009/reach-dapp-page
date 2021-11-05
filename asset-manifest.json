@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reach-dapp-page/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/reach-dapp-page/static/js/main.c159d3ef.chunk.js",
+    "main.js.map": "/reach-dapp-page/static/js/main.c159d3ef.chunk.js.map",
+    "runtime-main.js": "/reach-dapp-page/static/js/runtime-main.169bf1c0.js",
+    "runtime-main.js.map": "/reach-dapp-page/static/js/runtime-main.169bf1c0.js.map",
+    "static/js/2.cbcad17c.chunk.js": "/reach-dapp-page/static/js/2.cbcad17c.chunk.js",
+    "static/js/2.cbcad17c.chunk.js.map": "/reach-dapp-page/static/js/2.cbcad17c.chunk.js.map",
+    "static/js/3.af49726b.chunk.js": "/reach-dapp-page/static/js/3.af49726b.chunk.js",
+    "static/js/3.af49726b.chunk.js.map": "/reach-dapp-page/static/js/3.af49726b.chunk.js.map",
+    "index.html": "/reach-dapp-page/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/reach-dapp-page/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.cbcad17c.chunk.js.LICENSE.txt": "/reach-dapp-page/static/js/2.cbcad17c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/reach-dapp-page/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.169bf1c0.js",
+    "static/js/2.cbcad17c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c159d3ef.chunk.js"
+  ]
+}
